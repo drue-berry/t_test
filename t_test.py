@@ -4,6 +4,8 @@ from numpy import nan
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 
+print ("***Welcome to Independent T-Testing for CSV Files!***")
+print ("Please have your CSV file properly formatted and in the same directoy as this script.")
 data = input("Input file for t-testing:   ")
 location1 = str(input("Input first study location:   "))
 location2 = str(input("Input second study location:  "))
